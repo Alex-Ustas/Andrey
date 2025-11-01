@@ -21,7 +21,7 @@
 # 14
 n = int(input(''))
 b = int(input(''))
-if n < b :
+if n < b:
     print(n)
-else :
+else:
     print(b)
