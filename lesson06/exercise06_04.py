@@ -24,6 +24,6 @@
 # нет
 # Выходные данные:
 # Можно поиграть в телефон!
-dishes_washed = input()
-homework_done = input()
-punished = input()
+dishes_washed = input("Ты помыл посуду? (да/нет) ")
+homework_done = input("Ты сделал уроки? (да/нет) ")
+punished = input("Ты наказан? (да/нет) ")
