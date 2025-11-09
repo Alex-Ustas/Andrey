@@ -17,13 +17,13 @@
 #     print('Yes')
 # print('No')
 
-num = int(input())
-last_digit = num % 10    # последняя цифра числа
-first_digit = num // 10  # первая цифра числа
-if last_digit == first_digit:
-    print('ДА')
-else:
-    print('НЕТ')
+# num = int(input())
+# last_digit = num % 10    # последняя цифра числа
+# first_digit = num // 10  # первая цифра числа
+# if last_digit == first_digit:
+#     print('ДА')
+# else:
+#     print('НЕТ')
 
 age = int(input())
 if 3 <= age <= 10:

@@ -27,3 +27,7 @@
 dishes_washed = input("Ты помыл посуду? (да/нет) ")
 homework_done = input("Ты сделал уроки? (да/нет) ")
 punished = input("Ты наказан? (да/нет) ")
+if dishes_washed == "да" and homework_done == 'да' and punished == 'нет':
+    print('Можно поиграть в телефон!')
+else:
+    print('Нельзя поиграть в телефон!')
