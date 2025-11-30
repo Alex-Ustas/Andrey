@@ -24,3 +24,11 @@
 # 2
 # Выходные данные:
 # NO
+n = int(input())
+if n % 2 == 1:
+    print('YES')
+else:
+    if 2 <= n <= 5 or n > 20:
+        print("NO")
+    elif 6 <= n <= 20:
+        print("YES")
