@@ -21,3 +21,10 @@
 # 7
 # Выходные данные:
 # 78.0
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+z = abs(a) + abs(b) + abs(c)
+print(z)
