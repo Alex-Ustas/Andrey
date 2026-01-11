@@ -19,16 +19,19 @@
 # Выходные данные:
 # Мы покупаем арбуз весом 12 килограмм
 
-largest = 0
-for _ in range(5):
-    weight = int(input())
-    if weight > largest:
-        largest = weight
-print('Мы покупаем арбуз весом', largest, 'килограмм')
-
-# smallest = -1
+# largest = 0
 # for _ in range(5):
 #     weight = int(input())
-#     if weight < smallest or smallest == -1:
-#         smallest = weight
-# print('Мы покупаем арбуз весом', smallest, 'килограмм')
+#     if weight > largest:
+#         largest = weight
+# print('Мы покупаем арбуз весом', largest, 'килограмм')
+
+smallest = 0
+flag = True
+for _ in range(5):
+    weight = int(input())
+    if weight < smallest or flag:
+        smallest = weight
+        flag = False
+print('Мы покупаем арбуз весом', smallest, 'килограмм')
+
