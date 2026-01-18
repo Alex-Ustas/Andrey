@@ -18,3 +18,8 @@
 # Доступ разрешён!
 
 true_password = '1234'  # верный пароль
+password = input()
+while password != true_password:
+    print('Неверный пароль, попробуй ещё раз.')
+    password = input()
+print('Доступ разрешён!')
