@@ -12,7 +12,12 @@
 # Выходные данные:
 # 54321
 n = int(input())
+n1 = n
 while n != 0:
     last = n % 10
     print(last, end='')
     n //= 10
+
+print('\n', '-' * 60)
+
+print(str(n1)[::-1])

@@ -17,7 +17,11 @@
 # 1
 
 n = int(input())
+n1 = n
 while n != 0:
     last = n % 10
     print(last)
     n //= 10
+print('-' * 60)
+for c in str(n1)[::-1]:
+    print(c)
