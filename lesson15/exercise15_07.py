@@ -25,3 +25,12 @@
 # @GraffAndrey
 # Выходные данные:
 # Incorrect
+s = input()
+result = 'Incorrect'
+if s[0] == '@' and 5 <= len(s) <= 15:
+    for c in s[1:]:
+        if not(c.isdigit() or c.islower()):
+            break
+    else:
+        result= 'Correct'
+print(result)
