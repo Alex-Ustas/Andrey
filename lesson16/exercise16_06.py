@@ -20,3 +20,13 @@
 # Выходные данные:
 # Минимальная строка: буря
 # Максимальная строка: небо
+
+s = input()
+max_str = ''
+min_str = s
+while s != 'КОНЕЦ':
+    max_str = max(s, max_str)
+    min_str = min(s, min_str)
+    s = input()
+print(f'Минимальная строка: {min_str}')
+print(f'Максимальная строка: {max_str}')
