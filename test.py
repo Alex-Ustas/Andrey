@@ -77,13 +77,21 @@
 #         greater_than_6 = greater_than_6 + 1
 # print(total, counter, even, greater_than_6)
 
-found = False  # пока не нашли
-while not found:  # пока found == False
-    item = input("Что нашёл? ")
-    if item == "ключ":
-        found = True  # нашли! цикл закончится
-        print("Ура, ключ найден!")
-    else:
-        print(item, "- это не ключ, ищем дальше...")
-# открываем дверь и переходим к следующему сюжету
-print("Открываем дверь...")
+# found = False  # пока не нашли
+# while not found:  # пока found == False
+#     item = input("Что нашёл? ")
+#     if item == "ключ":
+#         found = True  # нашли! цикл закончится
+#         print("Ура, ключ найден!")
+#     else:
+#         print(item, "- это не ключ, ищем дальше...")
+# # открываем дверь и переходим к следующему сюжету
+# print("Открываем дверь...")
+
+numbers = [int(n) for n in '5 78 4 9 56 4 3'.split()]
+
+
+numbers = []
+s= '5 78 4 9 56 4 3'.split()
+for i in s:
+    numbers.append(i)
