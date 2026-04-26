@@ -13,3 +13,9 @@
 # Выходные данные:
 # 8 9 10 11
 # 11 10 9 8
+s = [int(i) for i in input().split()]
+s.sort()
+n = s.copy()
+n.reverse()
+print(*s)
+print(*n)

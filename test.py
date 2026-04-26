@@ -95,3 +95,10 @@ numbers = []
 s= '5 78 4 9 56 4 3'.split()
 for i in s:
     numbers.append(i)
+
+score = [5, 4, 3, 5, 4, 5]
+result = sum(score) + max(score)
+result -= len(score) + score.count(3) + score.index(3)
+print(f'{sum(score)=} + {max(score)=}')
+print(f'{len(score)=} + {score.count(3)=} + {score.index(3)=}')
+print(result)
